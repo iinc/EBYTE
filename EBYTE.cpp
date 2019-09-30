@@ -232,6 +232,7 @@ void EBYTE::CompleteTask(unsigned long timeout) {
 			if ((millis() - t) > timeout){
 				break;
 			}
+			delay(0);
 		}
 	}
 	else {
